@@ -58,15 +58,28 @@ margin-right: 10px;
 margin-left: 10px;
 }
 
+/* prefuckery */
+/* .imgDiv {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .imgDiv {
     z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    border: 1px solid blue;
+    background-color: transparent;
+    height: 500px;
 }
 
 #characterImg {
-    padding-top: 20%;
-    padding-left: 4%;
     z-index: 3;
+    position: absolute;
+    top: 68%;
+    left: 47.9%
 }
