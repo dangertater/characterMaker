@@ -11,7 +11,7 @@
 #top {
     top: 0;
     width: 150vh;
-    min-height: 41%;
+    min-height: 40.5%;
 }
 
 #bottom {
@@ -47,7 +47,7 @@ background-color: blueviolet;
 z-index: 2;
 height: 100px;
 width: 120px;
-
+font-size: 30px;
 }
 
 #leftButton{
