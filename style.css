@@ -1,0 +1,72 @@
+* {
+    border: solid 1px red
+}
+
+.windowDivs{
+    background-color: forestgreen;
+    position: absolute;
+    z-index: 1;
+}
+
+#top {
+    top: 0;
+    width: 150vh;
+    min-height: 41%;
+}
+
+#bottom {
+    bottom: 0;
+    width: 150vh;
+    min-height: 54%;
+}
+
+#left{
+    left: 0;
+    width: 48%;
+    min-height: 150vh;
+}
+
+#right{
+    right: 0;
+    width: 48%;
+    min-height: 150vh;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonContainer{
+padding-top:50%;
+}
+
+.button {
+background-color: blueviolet;
+z-index: 2;
+height: 100px;
+width: 120px;
+
+}
+
+#leftButton{
+margin-right: 10px;
+}
+
+#rightButton {
+margin-left: 10px;
+}
+
+.imgDiv {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#characterImg {
+    padding-top: 20%;
+    padding-left: 4%;
+    z-index: 3;
+}
